@@ -263,6 +263,12 @@ TARGET_COMMON_QTI_COMPONENTS := \
     wfd \
     wlan
 
+# QMI
+PRODUCT_PACKAGES += \
+    libjson \
+    libqti_vndfwk_detect.vendor \
+    libvndfwk_detect_jni.qti.vendor
+    
 # Neural Networks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor 
