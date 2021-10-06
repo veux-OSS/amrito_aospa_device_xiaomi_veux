@@ -212,6 +212,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Net
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.1.vendor
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPAVeuxFrameworksOverlay \
