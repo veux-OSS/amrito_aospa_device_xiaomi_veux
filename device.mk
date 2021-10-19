@@ -268,6 +268,10 @@ PRODUCT_PACKAGES += \
     libjson \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti.vendor
+  
+# RIL
+PRODUCT_PACKAGES += \
+    android.hardware.radio.config@1.0.vendor 
     
 # Neural Networks
 PRODUCT_PACKAGES += \
