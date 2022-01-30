@@ -132,3 +132,5 @@ vendor.usb.use_ffs_mtp=1
 
 # HWUI
 ro.hwui.render_ahead=2
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
