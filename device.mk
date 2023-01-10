@@ -95,7 +95,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-parts.xml
 
 # Display
-TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := false
+TARGET_GRALLOC_HANDLE_HAS_NO_RESERVED_SIZE := true
 
 # DRM
 PRODUCT_PACKAGES += \
