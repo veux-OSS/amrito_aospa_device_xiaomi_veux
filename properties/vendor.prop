@@ -84,6 +84,7 @@ ro.vendor.display.svi=1
 vendor.display.idle_time=0
 vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
+debug.sf.auto_latch_unsignaled=0
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
