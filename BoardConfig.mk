@@ -71,8 +71,6 @@ DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/configs/hidl/manifest.xml \
     $(DEVICE_PATH)/configs/hidl/xiaomi_manifest.xml
 
-DEVICE_MATRIX_FILE += $(COMMON_PATH)/compatibility_matrix.xml
-
 ODM_MANIFEST_SKUS += \
     veux \
     veux-cn
