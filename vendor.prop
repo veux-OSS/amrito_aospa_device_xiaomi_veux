@@ -110,7 +110,6 @@ persist.vendor.sensors.enable.bypass_worker=true
 persist.vendor.sensors.sync_request=true
 
 # SoC
-ro.soc.manufacturer=QTI
 ro.soc.model=SM6375
 
 # SSR
