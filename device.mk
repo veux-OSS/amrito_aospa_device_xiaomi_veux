@@ -237,9 +237,6 @@ PRODUCT_COPY_FILES += \
 # Platform
 TARGET_BOARD_PLATFORM := holi
 
-# Project ID Quota
-$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
-
 # QC common
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
