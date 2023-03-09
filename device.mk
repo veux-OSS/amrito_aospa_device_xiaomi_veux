@@ -97,6 +97,9 @@ PRODUCT_COPY_FILES += \
 # Display
 TARGET_GRALLOC_HANDLE_HAS_NO_RESERVED_SIZE := true
 
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
