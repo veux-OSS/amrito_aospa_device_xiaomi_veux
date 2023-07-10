@@ -126,6 +126,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.veux.perf.rc \
     ueventd.xiaomi.rc \
+    fstab.zram \
     init.kernel.post_boot-blair.sh 
 
 PRODUCT_COPY_FILES += \
