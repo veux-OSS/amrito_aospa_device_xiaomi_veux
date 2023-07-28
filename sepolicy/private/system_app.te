@@ -1,3 +1,7 @@
+# Read zram files.
+allow system_app sysfs_zram:dir r_dir_perms;
+allow system_app sysfs_zram:file r_file_perms;
+
 # Suspend
 dontaudit system_app system_suspend_control_service:service_manager { find };
 dontaudit system_app system_suspend_control_internal_service:service_manager { find };
