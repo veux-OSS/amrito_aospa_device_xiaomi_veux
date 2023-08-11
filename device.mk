@@ -193,7 +193,9 @@ PRODUCT_PACKAGES += \
     VeuxSettingsOverlay \
     VeuxSystemUIOverlay \
     VeuxWifiOverlay \
-    NoCutoutOverlay
+    CarrierConfigOverlayCOMMON \
+    TelephonyOverlayCOMMON \
+    NoCutoutOverlay 
 
 # ParanoidDoze
 #PRODUCT_PACKAGES += \
