@@ -1,6 +1,6 @@
 # Audio
 audio.offload.gapless.enabled=true
-audio.offload.buffer.size.kb=32
+vendor.audio.offload.buffer.size.kb=256
 persist.audio.fluence.voicerec=true
 persist.vendor.audio.ring.filter.mask=0
 persist.vendor.audio.fluence.voicerec=true
