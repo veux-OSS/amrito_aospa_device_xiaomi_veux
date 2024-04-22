@@ -126,6 +126,10 @@ on post-fs-data
 on early-boot
     start vendor.sensors
 
+on property:sys.boot_completed=1
+    # STOP EATING MY BATTERY AFTER 100H OF UPTIME FUCK YOU
+    stop statsd
+
 on boot
     # DT2W
     chown system system /proc/tp_gesture
@@ -323,7 +327,7 @@ service checknv /system/bin/checknv
 # Sync attribute value between system and vendor
 on property:persist.sys.mcc.mnc=*
     setprop persist.vendor.mcc.mnc ${persist.sys.mcc.mnc}
-    
+
     # Set zRAM compression algorithm to LZ4
     write /sys/block/zram0/comp_algorithm lz4
     # Read only one page at a time
