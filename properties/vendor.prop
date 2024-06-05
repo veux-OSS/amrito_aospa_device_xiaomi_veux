@@ -72,7 +72,7 @@ persist.vendor.dpm.idletimer.mode=default
 drm.service.enabled=true
 
 # Display
-debug.sf.disable_backpressure=1
+debug.sf.disable_backpressure=0
 debug.sf.enable_hwc_vds=1
 persist.sys.sf.color_mode=0
 ro.surface_flinger.set_display_power_timer_ms=1000
