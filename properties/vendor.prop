@@ -44,6 +44,7 @@ ro.vendor.audio.sos=true
 ro.vendor.audio.voice.volume.boost=manual
 vendor.audio.chk.cal.spk=2
 vendor.audio.chk.cal.us=2
+ro.audio.monitorRotation=true
 
 # Bluetooth
 persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=false
