@@ -24,3 +24,9 @@ on property:vendor.post_boot.parsed=1
     # Configure CPU input boost
     write /sys/devices/system/cpu/cpu_boost/input_boost_freq "0:1324800 6:1228800"
     write /sys/devices/system/cpu/cpu_boost/input_boost_ms 100
+    
+    # IRQ Tuning
+    # IRQ 243: msm_drm
+    # IRQ 240: kgsl_3d0_irq
+    write /proc/irq/243/smp_affinity_list 2
+    write /proc/irq/240/smp_affinity_list 1
