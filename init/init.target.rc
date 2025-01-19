@@ -108,6 +108,9 @@ on late-fs
     #exec_start wait_for_keymaster
     mount_all --late
 
+    # Disable native stats collection service
+    stop statsd
+
 on post-fs-data
     mkdir /vendor/data/tombstones 0771 system system
 #ExtR HONGMI-90116,wufa@wingtech.com,add,20210908,add mi_thermal
