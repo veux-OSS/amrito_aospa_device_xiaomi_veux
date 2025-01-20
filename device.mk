@@ -259,6 +259,10 @@ TARGET_COMMON_QTI_COMPONENTS := \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor 
     
+# GPS
+PRODUCT_PACKAGES += \
+	libcurl
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal \
