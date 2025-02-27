@@ -1402,4 +1402,5 @@ vendor/firmware/vpu20_4v_unsigned.mbn
 
 # WiFi
 vendor/bin/cnss-daemon
-
+vendor/etc/wifi/aoa_cldb_falcon.bin
+vendor/etc/wifi/aoa_cldb_swl14.bin
