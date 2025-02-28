@@ -125,7 +125,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.target.rc \
     init.veux.perf.rc \
-    ueventd.xiaomi.rc 
+    ueventd.xiaomi.rc \
+    init.kernel.post_boot-blair.sh 
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.qcom.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.usb.rc \
