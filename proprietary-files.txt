@@ -1,4 +1,4 @@
-# Device proprietary files - from veux MIUI V13.0.10.0.RKCMIXM package, unless pinned
+# All unpinned blobs below are extracted from V14.0.6.0.TKCMIXM (VEUXGlobal)
 
 # ADSP
 vendor/bin/adsprpcd
