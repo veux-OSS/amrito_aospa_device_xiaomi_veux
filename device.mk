@@ -216,8 +216,24 @@ PRODUCT_COPY_FILES += \
 # Platform
 TARGET_BOARD_PLATFORM := holi
 
-# QC common
-TARGET_COMMON_QTI_COMPONENTS := all
+# QTI Components
+TARGET_COMMON_QTI_COMPONENTS := \
+    adreno \
+    alarm \
+    audio \
+    av \
+    bt \
+    charging \
+    display \
+    gps \
+    init \
+    media \
+    overlay \
+    perf \
+    telephony \
+    usb \
+    wfd \
+    wlan
 
 # Neural Networks
 PRODUCT_PACKAGES += \
