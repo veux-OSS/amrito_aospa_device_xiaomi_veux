@@ -219,6 +219,10 @@ TARGET_BOARD_PLATFORM := holi
 # QC common
 TARGET_COMMON_QTI_COMPONENTS := all
 
+# Neural Networks
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.3.vendor 
+    
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal \
