@@ -1,4 +1,6 @@
 # All unpinned blobs below are extracted from OS1.0.12.0.TKCMIXM (VEUXGlobal)
+# veux_cn: V14.0.5.0.TKCCNXM (VEUX)
+
 # ADSP
 vendor/bin/adsprpcd
 vendor/bin/audioadsprpcd
@@ -936,15 +938,18 @@ vendor/etc/init/init.sn100.nfc.rc|1b65e72b51d4e6568cb83eebb0b14b0a7e6e5200
 vendor/etc/libnfc-nci.conf|1718bb396eb876128b14cdf47e511461fb620f2b
 vendor/lib/libsn100u_fw.so|2bc1887b71b4557b75e26465f6917525bfd43e4a
 
-# SecureMSM (GPQESE)
-vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
-vendor/bin/hw/vendor.qti.secure_element@1.2-service
-vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
-vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
-vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
-vendor/lib64/android.hardware.secure_element@1.0-impl.so
-vendor/lib64/vendor.qti.esepowermanager@1.0.so
-vendor/lib64/vendor.qti.esepowermanager@1.1.so
+# Embedded Secure Element power manager - from veux_cn
+vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|0427ec8683d9737faa00d3fcb9e19b660a26c298
+vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|5560bfccdc7ea51ed6f3ae032573122ef113c619
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|8716f793f12ac3d3a5444ddaa056d6150af084be
+vendor/lib64/vendor.qti.esepowermanager@1.1.so|759973ec41a5a9d0f0c4bc941a4e513704ecfc2c
+
+# Secure element - from veux_cn
+vendor/bin/hw/vendor.qti.secure_element@1.2-service|7843771977282db89a3bbd1160fe35bcce901127
+vendor/lib64/android.hardware.secure_element@1.0-impl.so|aca8690c4ad25e976b25811fb5328c4a875efec2|a7d75c55306bc5d5afa048dda66a6fa9be19542e
+vendor/lib64/jcos_nq_client.so|22db02f4bcc6e1932ca2a29bc7ee837889e07b02
+vendor/lib64/ls_nq_client.so|d8942d3dbd23e6845aac517f8d739848593b87c7
+vendor/lib64/se_nq_extn_client.so|df7a377b826b6ed2a68059504962ac517939d4d1
 
 # Neural-networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti
