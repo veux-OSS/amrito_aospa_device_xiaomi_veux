@@ -29,7 +29,7 @@ function vendor_imports() {
         "hardware/qcom/display",
         "hardware/qcom/display/gralloc",
         "hardware/qcom/display/libdebug",
-		"hardware/xiaomi",
+	"hardware/xiaomi",
         "vendor/qcom/common/vendor/adreno-r",
         "vendor/qcom/common/vendor/display/5.4",
         "vendor/qcom/common/vendor/gps-legacy",
@@ -45,11 +45,21 @@ function lib_to_package_fixup_vendor_variants() {
 
     case "$1" in
         com.qualcomm.qti.dpm.api@1.0 | \
+            com.qualcomm.qti.imscmservice* | \
+            com.qualcomm.qti.uceservice* | \
             libmmosal | \
+            vendor.qti.data.* | \
             vendor.qti.diaghal@1.0 | \
-            vendor.qti.hardware.fm@1.0 | \
+            vendor.qti.hardware.data.* | \
+            vendor.qti.hardware.embmssl* | \
+            vendor.qti.hardware.limits@1.0 | \
+            vendor.qti.hardware.mwqemadapter@1.0 | \
+            vendor.qti.hardware.radio.* | \
+            vendor.qti.hardware.slmadapter@1.0 | \
             vendor.qti.hardware.wifidisplaysession@1.0 | \
-            vendor.qti.imsrtpservice@3.0)
+            vendor.qti.imsrtpservice@3.0 | \
+            vendor.qti.ims.* | \
+            vendor.qti.latency*)
             echo "$1_vendor"
             ;;
         libOmxCore | \
